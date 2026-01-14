@@ -31,6 +31,6 @@ requirements.txt：项目依赖清单，这是Python项目的标准依赖管理�
 
 3.项目源GitHub地址
 
-关于Audio-Reasoner的详细配置步骤可以参考：https://github.com/xzf-thu/Audio-Reasoner/blob/main/README.md
+关于Audio-Reasoner的详细配置步骤可以参考：https://github.com/xzf-thu/Audio-Reasoner
 
-关于MMAR数据集的详细信息可以参考：https://github.com/ddlBoJack/MMAR/blob/main/README.md
+关于MMAR数据集的详细信息可以参考：https://github.com/ddlBoJack/MMAR
