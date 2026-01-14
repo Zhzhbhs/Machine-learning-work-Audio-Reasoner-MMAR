@@ -18,7 +18,7 @@ MMAR-code文件夹包含：
 
 evaluation.py：评估模型跑完测试集后得到的结果，会显示模型做各种题目的准确率
 
-run_mmar_4gpu.py：调用模型，在整个MMAR数据集集进行测试，同时由于我服务器的缘故，该代码同时将MMAR中的1000条数据平均分成4分，交给4个GPU并行计算，以提高效率
+run_mmar_4gpu.py：调用模型，在整个MMAR数据集集进行测试，同时由于我服务器的缘故，该代码同时将MMAR中的1000条数据平均分成4份，交给4个GPU并行计算，以提高效率
 
 merge_parts.py：合并run_mmar_4gpu.py生成的四个.json文件，生成的最终结果给evaluation.py，供其评判
 
