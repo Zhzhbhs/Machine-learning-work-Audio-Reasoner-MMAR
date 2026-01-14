@@ -1,4 +1,9 @@
-由于Audio-Reasoner权重和配置文件和MMAR的数据集太大，所以需要老师从下面的地址进行下载
-Audio-Reasoner权重和配置文件下载地址：https://huggingface.co/zhifeixie/Audio-Reasoner/tree/main
-MMAR数据集下载地址：https://huggingface.co/datasets/BoJack/MMAR
-下载好Audio-Reasoner权重和配置文件以及MMAR数据集后，可以在inference.py文件和中替换相应的地址信息
+数据与模型下载
+由于 Audio-Reasoner 的权重和配置文件以及 MMAR 数据集文件较大，建议从以下地址下载：
+Audio-Reasoner 权重和配置文件：https://huggingface.co/zhifeixie/Audio-Reasoner/tree/main
+
+MMAR 数据集：https://huggingface.co/datasets/BoJack/MMAR
+
+下载完成后，请在以下脚本中替换相应的路径：
+inference.py：用于测试单个音频文件。
+run_mmar_4gpu.py：用于测试整个 MMAR 数据集，需要 4 个 GPU 支持。
